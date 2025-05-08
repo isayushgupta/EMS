@@ -1,0 +1,159 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Amit",
+      "email": "employee1@example.com",
+      "password": "123",
+      "tasks": [
+        {
+          "title": "Submit Report",
+          "description": "Submit the weekly sales report to the manager.",
+          "date": "2025-03-25",
+          "priority": "High",
+          "category": "Work",
+          "active": false,
+          "newTask": true,
+          "completed": false,
+          "failed": false
+        },
+        {
+          "title": "Update CRM",
+          "description": "Update customer details in the CRM system.",
+          "date": "2025-03-26",
+          "priority": "Medium",
+          "category": "Admin",
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false
+        }
+      ],
+      "taskNumbers": {"active": 2, "newTask": 1, "completed": 0, "failed": 0}
+    },
+    {
+      "id": 2,
+      "firstName": "Rohan",
+      "email": "employee2@example.com",
+      "password": "123",
+      "tasks": [
+        {
+          "title": "Code Review",
+          "description": "Review the new feature implementation code.",
+          "date": "2025-03-27",
+          "priority": "High",
+          "category": "Development",
+          "active": false,
+          "newTask": true,
+          "completed": false,
+          "failed": true
+        },
+        {
+          "title": "Fix Bugs",
+          "description": "Resolve reported issues in the web app.",
+          "date": "2025-03-28",
+          "priority": "Medium",
+          "category": "Development",
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false
+        }
+      ],
+      "taskNumbers": {"active": 2, "newTask": 1, "completed": 0, "failed": 0}
+    },
+    {
+      "id": 3,
+      "firstName": "Priya",
+      "email": "employee3@example.com",
+      "password": "123",
+      "tasks": [
+        {
+          "title": "Client Meeting",
+          "description": "Discuss project requirements with the client.",
+          "date": "2025-03-29",
+          "priority": "High",
+          "category": "Meetings",
+          "active": false,
+          "newTask": true,
+          "completed": false,
+          "failed": false
+        },
+        {
+          "title": "Prepare Presentation",
+          "description": "Prepare slides for the upcoming project proposal.",
+          "date": "2025-03-30",
+          "priority": "Low",
+          "category": "Work",
+          "active": false,
+          "newTask": false,
+          "completed": false,
+          "failed": true
+        }
+      ],
+      "taskNumbers": {"active": 1, "newTask": 1, "completed": 0, "failed": 1}
+    },
+    {
+      "id": 4,
+      "firstName": "Neha",
+      "email": "employee4@example.com",
+      "password": "123",
+      "tasks": [
+        {
+          "title": "Design Mockups",
+          "description": "Create UI/UX mockups for the mobile app.",
+          "date": "2025-03-31",
+          "priority": "Medium",
+          "category": "Design",
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false
+        },
+        {
+          "title": "Write Blog Post",
+          "description": "Draft a blog post on latest design trends.",
+          "date": "2025-04-01",
+          "priority": "Low",
+          "category": "Marketing",
+          "active": false,
+          "newTask": true,
+          "completed": false,
+          "failed": false
+        }
+      ],
+      "taskNumbers": {"active": 1, "newTask": 1, "completed": 0, "failed": 0}
+    },
+    {
+      "id": 5,
+      "firstName": "Vikram",
+      "email": "employee5@example.com",
+      "password": "123",
+      "tasks": [
+        {
+          "title": "Conduct Training",
+          "description": "Train new employees on company policies.",
+          "date": "2025-04-02",
+          "priority": "High",
+          "category": "HR",
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false
+        },
+        {
+          "title": "Organize Team Event",
+          "description": "Plan a team-building event for employees.",
+          "date": "2025-04-03",
+          "priority": "Medium",
+          "category": "HR",
+          "active": true,
+          "newTask": true,
+          "completed": false,
+          "failed": false
+        }
+      ],
+      "taskNumbers": {"active": 2, "newTask": 0, "completed": 0, "failed": 0}
+    }
+  ]
+}
